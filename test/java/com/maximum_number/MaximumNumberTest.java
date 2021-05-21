@@ -12,4 +12,9 @@ public class MaximumNumberTest {
         Assertions.assertEquals(81, result);
     }
 
+    @Test
+    public void given3NumberReturnSecondNumberMax() {
+        Integer result = maximum.maximumNUmber(2,4,1);
+        Assertions.assertEquals(4,result);
+    }
 }
