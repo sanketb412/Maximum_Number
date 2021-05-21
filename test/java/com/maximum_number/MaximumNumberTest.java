@@ -8,7 +8,8 @@ public class MaximumNumberTest {
 
     @Test
     public void given3NumberReturnFirstNumber() {
-        Integer result = maximum.maximumNUmber(8,1,45);
-        Assertions.assertEquals(45, result);
+        Integer result = maximum.maximumNUmber(81,1,45);
+        Assertions.assertEquals(81, result);
     }
+
 }

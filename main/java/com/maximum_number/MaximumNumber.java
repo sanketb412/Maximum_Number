@@ -2,7 +2,7 @@ package com.maximum_number;
 
 public class MaximumNumber {
     public Integer maximumNUmber(Integer x, Integer y, Integer z) {
-        Integer maximum = x;               //Initializing maximumNumber
+        Integer maximum = x;
         if (y.compareTo(maximum) > 0) {
             maximum = y;
         }
