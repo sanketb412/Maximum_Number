@@ -12,6 +12,17 @@ public class MaximumNumber {
         return maximum;
     }
 
+    public Float maximumFloatNUmber(Float x, Float y, Float z) {
+        Float maximum = x;
+        if (y.compareTo(maximum) > 0) {
+            maximum = y;
+        }
+        if (z.compareTo(maximum) > 0) {
+            maximum = z;
+        }
+        return maximum;
+    }
+
     public static void main(String[] args) {
         System.out.println("Welcome to Test Maximum of Three Variables");
     }
